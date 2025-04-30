@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luz en el Duelo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fffdf8;
+      font-family: 'Quicksand', sans-serif;
+    }
+    /* Estilos para todos los títulos */
+    h1, h2, h3, h4 {
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #fbeee6;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    .kit-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      height: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .kit-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    .kit-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 30px 0;
+      text-align: center;
+      color: #555;
+    }
+
+    /* Mejorar la sección de precios */
+    section.bg-primary {
+      background-color: #5c6bc0;
+      padding: 60px 0;
+      border-radius: 10px;
+    }
+
+    section.bg-primary .display-4 {
+      font-weight: 700;
+    }
+
+    section.bg-primary .lead {
+      font-size: 1.25rem;
+    }
+
+    section.bg-primary .badge {
+      font-weight: 600;
+    }
+
+    section.bg-custom {
+  background-color: #8caffc; /* Color pastel suave */
+}
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Hero / Bienvenida -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-5">Bienvenido/a a <span class="text-primary">Luz en el Duelo</span></h1>
+      <p class="lead mt-4">Aquí entendemos que el duelo tiene muchas formas y que cada pérdida deja una huella única en el corazón.</p>
+    </div>
+  </section>
+
+  <!-- Qué es Luz en el Duelo -->
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="./Assets/logo.jpeg" alt="Kit Luz en el Duelo" class="img-fluid rounded" style="border-radius: 100px;">
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-4">¿Qué es Luz en el Duelo?</h2>
+          <p>Luz en el Duelo es un proyecto de acompañamiento emocional creado desde el Trabajo Social, que busca brindar apoyo a personas que atraviesan diferentes tipos de duelo.</p>
+          <p>A través de agendas terapéuticas diseñadas con cuidado y empatía, ofrecemos un espacio para escribir, reflexionar, recordar y reconstruirse.</p>
+          <p>Cada una de nuestras agendas está pensada para ser usada durante un mes y viene acompañada de una vela simbólica y un lapicero, como elementos que representan la luz, la palabra y la presencia en el proceso de sanación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Precios y Promociones -->
+  <section class="section text-center bg-custom text-dark">
+    <div class="container">
+      <h3 class="mb-3 display-4">Precios y Promociones</h3>
+      <p class="lead mb-4">Precio estándar de <strong class="fs-3">₡65.000 COP</strong> por unidad.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <p class="lead fs-4 mb-4">
+            <span class="badge bg-light text-dark fs-5">Promociones:</span>
+            <br>
+            <strong>¡Llévate 2 por ₡110.000 COP!</strong>
+          </p>
+          <p class="lead fs-4">
+            <span class="badge bg-light text-dark fs-5">¡10% de descuento para trabajadores sociales!</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kits de Sanación -->
+  <section id="kits" class="section bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestros Kits de Sanación</h2>
+      <div class="row g-4">
+        <!-- Duelo Familiar -->
+        <div class="col-md-4">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="kit-card h-100">
+              <img src="./Assets/AgendaDFamiliar.jpeg" alt="Duelo Familiar" class="kit-image">
+              <h4 class="text-center">🕊️ Duelo Familiar</h4>
+              <p>Este kit ha sido creado para acompañarte con respeto y calidez en el proceso de despedir a un ser querido de tu familia.</p>
+              <ul>
+                <li>Agenda de sanación para honrar, expresar y encontrar paz.</li>
+                <li>Vela simbólica, como luz que acompaña la ausencia.</li>
+                <li>Lapicero personalizado para escribir con amor.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- Duelo Mascota -->
+        <div class="col-md-4">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="kit-card h-100">
+              <img src="./Assets/AgendaHuellasQueSanan.jpeg" alt="Duelo Mascota" class="kit-image">
+              <h4 class="text-center">🐾 Huellas que Sanan</h4>
+              <p>Pensado para quienes han perdido a un amigo peludo que dejó una huella eterna en su corazón.</p>
+              <ul>
+                <li>Agenda emocional para recordar y agradecer con ternura.</li>
+                <li>Vela en su memoria, símbolo de amor eterno.</li>
+                <li>Lapicero personalizado para expresar cada emoción.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- Duelo de Pareja -->
+        <div class="col-md-4">
+          <a href="#" class="text-decoration-none text-dark">
+            <div class="kit-card h-100">
+              <img src="./Assets/AgendaAmorQueSeDespide.jpeg" alt="Duelo de Pareja" class="kit-image">
+              <h4 class="text-center">💔 Amor que se despide</h4>
+              <p>Ideal para quienes atraviesan el final de una relación. Esta agenda te invita a sanar y volver a ti.</p>
+              <ul>
+                <li>Agenda terapéutica de un mes enfocada en el amor propio.</li>
+                <li>Vela simbólica, que representa un nuevo comienzo.</li>
+                <li>Lapicero personalizado para escribir con respeto.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto / Cierre -->
+  <section id="contacto" class="section">
+    <div class="container text-center">
+      <h2 class="mb-4">¿Quieres adquirir una agenda?</h2>
+      <p>Escríbenos para más información o para hacer tu pedido:</p>
+      <a href="https://wa.me/573001234567" class="btn btn-success btn-lg mt-3">Contactar por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">Cada agenda es una invitación a darte el permiso de sentir, llorar, agradecer y sanar. Aquí hay una luz que te acompaña.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
